@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client_Qwen = OpenAI(
     api_key="[YOUR-API-KEY]", 
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    base_url="[YOUR-BASE-URL]",
 )
 
 def chat_with_gpt():
