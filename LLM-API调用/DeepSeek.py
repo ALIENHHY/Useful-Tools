@@ -1,7 +1,7 @@
 from together import Together
 
 client = Together(
-    base_url='https://api.together.xyz',
+    base_url='[YOUR-BASE-URL]',
     api_key='[YOUR-API-KEY]'
 )
 
