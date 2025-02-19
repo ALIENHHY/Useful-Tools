@@ -2,7 +2,7 @@ from together import Together
 
 client = Together(
     base_url='https://api.together.xyz',
-    api_key='3d9537e23ff98ccfaaca670c7a48c1618b4e7f5bf757ae55a5fa65aa682ee7b8'
+    api_key='[YOUR-API-KEY]'
 )
 
 def chat_with_gpt():
