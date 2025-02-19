@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client_Qwen = OpenAI(
-    api_key="sk-733256a16e0844088997fcf115b6eb62", 
+    api_key="[YOUR-API-KEY]", 
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
