@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client_GPT = OpenAI(
-    base_url='http://chatapi.littlewheat.com/v1',
+    base_url='[YOUR-BASE-URL]',
     api_key='[YOUR-API-KEY]'
 )
 
