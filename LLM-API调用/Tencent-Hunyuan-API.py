@@ -5,7 +5,7 @@ from tencentcloud.hunyuan.v20230901 import hunyuan_client, models
 
 
 # 实例化一个认证对象，入参需要传入腾讯云账户的 SecretId 和 SecretKey
-cred = credential.Credential("AKIDSjnkVRBi4CAuUt78wYw8AzTmvscHiwyo", "lJeokV21sWyBCyhEYfbDqIhuysb7Qenj")
+cred = credential.Credential("[YOUR-SECRETID]", "[YOUR-SECRETKEY]")
 
 # 实例化客户端配置对象
 client_profile = ClientProfile()
