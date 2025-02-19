@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client_GPT = OpenAI(
     base_url='http://chatapi.littlewheat.com/v1',
-    api_key='sk-qBR0c90y34rWOeQHWnWG7k028u6If2z0n08qjEaAXaTq0OGm'
+    api_key='[YOUR-API-KEY]'
 )
 
 def chat_with_gpt():
